@@ -1,6 +1,6 @@
 import { useState } from "react";
 import confetti from "canvas-confetti";
-import Square from "./components/Square";
+import Square from "./components/Square.jsx";
 import { TURNS } from "./helpers/constants";
 import checkWinner from "./logic/checkWinner";
 import WinnerModal from "./components/WinnerModal";

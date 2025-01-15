@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 const Square = ({ children, isSelected, updateBoard, index }) => {
   const ClassName = `square ${isSelected ? "is-selected" : ""}`;

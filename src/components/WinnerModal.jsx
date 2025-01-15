@@ -1,5 +1,5 @@
 import Square from "./Square";
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 function WinnerModal({ winner, resetGame }) {
   if (winner === null) return null;
